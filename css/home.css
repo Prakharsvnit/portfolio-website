@@ -1,0 +1,91 @@
+body {
+  font-family: "Dongle", sans-serif;
+  font-size: 200%;
+}
+
+.navbar-brand {
+  padding-left: 60px;
+  font-size: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  padding-right: 50px;
+  text-align: center;
+}
+
+#home {
+  text-align: center;
+  line-height: 160%;
+  height: 600px;
+  /* border: 1px solid green; */
+  /* position: absolute; */
+  /* top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; */
+}
+
+#name {
+  margin-top: 0px;
+  font-size: 70px;
+}
+
+#role {
+  font-size: 50px;
+}
+
+#contact {
+  line-height: 60%;
+  font-size: 35px;
+}
+
+.social-media {
+  margin-right: 50px;
+  color:black;
+}
+
+.prakhar_image {
+width:320px;
+margin:30px;
+}
+
+.resume {
+  background-color: #e3f2fd;
+  font-size: 30px;
+  border: 2px solid black;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+  .navbar-nav {
+    flex-direction: row;
+    font-size: 80%;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    padding-right: 10px;
+  }
+  .navbar-brand {
+    padding-left: 10px;
+  }
+
+  #name {
+    font-size: 50px;
+  }
+  #role {
+    font-size: 40px;
+    margin-top: 60px;
+  }
+  #contact {
+    font-size: 30px;
+  }
+  .prakhar_image {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,70 @@
+body {
+    font-family: "Dongle", sans-serif;
+    font-size: 200%;
+  }
+  
+  .navbar-brand {
+    padding-left: 60px;
+    font-size: 100%;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: black;
+    padding-right: 50px;
+    text-align: center;
+  }
+  
+  #about {
+    float:left;
+    padding:20px;
+    width:30%;
+    text-align: center;
+    line-height: 160%;
+    height: 450px;
+    margin-left: 200px;
+    border: 2px solid black;
+    background-color:#E3EFFD;
+  }
+
+
+
+#name{
+    font-size: 60px;
+}  
+
+.prakhar_image {
+    width: 30%;
+    padding: 20px;
+    display: inline;
+  }  
+
+  
+@media only screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+  .navbar-nav {
+    flex-direction: row;
+    font-size: 80%;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    padding-right: 10px;
+  }
+  .navbar-brand {
+    padding-left: 10px;
+  }
+  .prakhar_image {
+      width: 50%;
+      padding-top:20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #about{
+        width: 100%;
+        height: 100%;
+        /* margin-top: 0px !important; */
+    }
+
+}
+  
