@@ -17,7 +17,7 @@ body {
   .proj{
     margin-top: 50px;;
     /* border:2px solid black; */
-    width:50%;
+    width:65%;
     height:350px;
     margin-left:auto;
     margin-right:auto;
@@ -26,7 +26,7 @@ body {
   }
   
   .proj-img{
-    width:45%;
+    width:40%;
     height:100%;
     border:5px solid black;
     float:left;

@@ -15,37 +15,17 @@ body {
 }
 
 #skills {
-  border:2px solid black;
+  /* border:2px solid black;
   padding: 20px;
   float:left;
   line-height: 160%;
   height: 450px;
   width: 30%;
   margin-left: 250px !important;
-  background-color: #e3effd;
+  background-color: #e3effd; */
 }
 
 .skills-image {
   width: 80px;
 }
 
-@media only screen and (max-width: 480px) {
-  body {
-    overflow-x: hidden;
-  }
-  .navbar-nav {
-    flex-direction: row;
-    font-size: 80%;
-  }
-  .navbar-light .navbar-nav .nav-link {
-    padding-right: 10px;
-  }
-  .navbar-brand {
-    padding-left: 10px;
-  }
-  #skills {
-    width: 80%;
-    height: 100%;
-    border:2px solid black;
-  }
-}

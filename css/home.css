@@ -57,35 +57,3 @@ margin:30px;
   border: 2px solid black;
 }
 
-@media only screen and (max-width: 480px) {
-  body {
-    overflow-x: hidden;
-  }
-  .navbar-nav {
-    flex-direction: row;
-    font-size: 80%;
-  }
-  .navbar-light .navbar-nav .nav-link {
-    padding-right: 10px;
-  }
-  .navbar-brand {
-    padding-left: 10px;
-  }
-
-  #name {
-    font-size: 50px;
-  }
-  #role {
-    font-size: 40px;
-    margin-top: 60px;
-  }
-  #contact {
-    font-size: 30px;
-  }
-  .prakhar_image {
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}

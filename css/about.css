@@ -39,32 +39,3 @@ body {
   }  
 
   
-@media only screen and (max-width: 480px) {
-  body {
-    overflow-x: hidden;
-  }
-  .navbar-nav {
-    flex-direction: row;
-    font-size: 80%;
-  }
-  .navbar-light .navbar-nav .nav-link {
-    padding-right: 10px;
-  }
-  .navbar-brand {
-    padding-left: 10px;
-  }
-  .prakhar_image {
-      width: 50%;
-      padding-top:20px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    #about{
-        width: 100%;
-        height: 100%;
-        /* margin-top: 0px !important; */
-    }
-
-}
-  
