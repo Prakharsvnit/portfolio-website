@@ -1,6 +1,7 @@
 body {
     font-family: "Dongle", sans-serif;
     font-size: 200%;
+    overflow-x: hidden;
   }
   
   .navbar-brand {
@@ -13,20 +14,6 @@ body {
     padding-right: 50px;
     text-align: center;
   }
-  
-  #about {
-    float:left;
-    padding:20px;
-    width:30%;
-    text-align: center;
-    line-height: 160%;
-    height: 450px;
-    margin-left: 200px;
-    border: 2px solid black;
-    background-color:#E3EFFD;
-  }
-
-
 
 #name{
     font-size: 60px;
